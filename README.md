@@ -13,7 +13,7 @@ Live Server, ESLint, JavaScript (ES6) Code snippets extensions are installed.
 6.  In VS Code terminal, go into the new project folder, type `npm start` and you should see your 
 computer's default browser opening a new tab to display the boilerplate React.JS web page.
 7.  You can delete the unnecessary boilerplate files within the src sub-folder and start coding for your 
-project. I have included the remaining barebone react.js src sub-folder files in this repository.
+project. I have included the barebone react.js [src sub-folder](./src) in this repository.
 
 
 Check that .git is auto-created in the project folder by VS Code. If .git is not found then type in terminal 
