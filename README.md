@@ -1,6 +1,6 @@
 # Starting React.JS project on VS Code with Git
 The purpose of this repository is to keep a living document on how to start a React.js project on VS Code 
-with Git support.
+with Git to help with version control.
 
 ## Steps:
 1.  Ensure that VS Code, Git and Node.JS are installed on computer. Also ensure that React Developer 
@@ -13,9 +13,9 @@ Live Server, ESLint, JavaScript (ES6) Code snippets extensions are installed.
 6.  In VS Code terminal, go into the new project folder, type `npm start` and you should see your 
 computer's default browser opening a new tab to display the boilerplate React.JS web page.
 7.  You can delete the unnecessary boilerplate files within the src sub-folder and start coding for your 
-project. I have included the barebone react.js [src sub-folder](./src) in this repository.
+project. I have included the barebone program files in [src sub-folder](./src).
 
-
-Check that .git is auto-created in the project folder by VS Code. If .git is not found then type in terminal 
+## Working with Git
+1.  Check that .git is auto-created in the project folder by VS Code. If .git is not found then type in terminal 
 (within the project folder) "git init" to initialize git for the project. Alternatively, ensure that git 
 is activated within VS Code.
