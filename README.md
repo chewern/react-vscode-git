@@ -1,4 +1,5 @@
-# Initializing React.JS project on VS Code with Git
+# Starting React.JS project on VS Code with Git
+
 The purpose of this repository is to keep a living document on how to start a React.js project on VS Code 
 with Git to help with version control.
 
@@ -20,4 +21,4 @@ project. I have included the barebone program files in [src sub-folder](./src).
     If .git is not found, you can initialize git for the project in 2 ways:
         a.  To get VS Code to automatically initialize Git in all projects, enable Git in VS Code settings. For VS Code 2019 and above, this should already be done (unless the               user changed it). To enable Git in VS Code: Go to File > Preferences > Settings. Type "Git: Enabled" in the search bar. Make sure that the box is ticked.
         b.  If you don't want to automatically initialize Git in all projects, and only for one project, do the following: Type in terminal (within the project folder) `git                   --version` to check if Git is installed. If there is an output "git version ...", it's already installed. If not, [download Git](https://git-scm.com/downloads/).
-            Next, update Git config with name and email (if not done before) by typing `git config --global user.name "Your Name"`
+            Next, update Git config with name and email (if not done before) by typing `git config --global user.name "Your Name"`.
