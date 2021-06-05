@@ -34,13 +34,18 @@ See the [video tutorial](https://code.visualstudio.com/docs/introvideos/versionc
 
 To see details of your current repository changes, select the Source Control icon in the Activity Bar on the left or press `Ctrl+Shift+G`.  
 
-### Commit Changes
+### Commit and Push Changes
 1. After saving the file, stage changes by hovering over the file in the panel and click the `+` symbol 
     - It is possible to skip this step and commit unstaged changes, but VS Code will show a warning popup.
 2. To commit changes, click the tick symbol at the top of the panel or press `Ctrl+Enter`.  
+3. To push local changes to remote repository (on GitHub), type `git push` in the Terminal (in your project folder).
 
-To undo your last commit, use the command `Git: Undo Last Commit` in the Command Palette (`Ctrl+Shift+P`) or click the 3 dot menu > Commit > Undo Last Commit.  
+To undo your last commit, use the command `Git: Undo Last Commit` in the Command Palette (`Ctrl+Shift+P`)  
+or click the 3 dot menu > Commit > Undo Last Commit.  
 
+### Pull Changes
+1. To pull changes from remote (on GitHub server) and update the local repository, go to the Source Control tab > three dot menu > Pull.  
+Alternatively, type `git pull` in the Terminal (in your project folder).
 ### Timeline View or Git History
 To visualise Git History (seeing the details of each commit and history of a file), there are 2 methods:  
 - Go to the File Explorer in VS Code (select the Explorer icon in the Activity Bar on the left or press `Ctrl+Shift+E`).  
