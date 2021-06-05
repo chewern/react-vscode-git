@@ -15,7 +15,7 @@ with Git to help with version control.
 
 ## Basic Steps:
 
-1.  Ensure that VS Code, Git and Node.JS are installed on computer. Also ensure that React Developer
+1.  Ensure that [VS Code](https://code.visualstudio.com/download), [Git](https://git-scm.com/downloads/) and [Node.JS](https://nodejs.org/en/download/) are installed on computer. Also ensure that React Developer
     Tools extension is added to and activated in your browser.
 2.  (Optional) In VS Code Extensions, check that ES7 React/Redux/GraphGL/React-Native is installed. Also check that
     Live Server, ESLint, JavaScript (ES6) Code snippets extensions are installed.
@@ -34,7 +34,7 @@ with Git to help with version control.
 1.  Check that `.git` is auto-created in the project folder by VS Code (view in File Explorer).  
 If `.git` is not found, you can initialize Git for the project in 2 ways:  
     - To get VS Code to automatically initialize Git in all projects, enable Git in VS Code settings. For VS Code 2019 and above, this should already be done (unless the user changed it).  
-    To enable Git in VS Code: Go to File > Preferences > Settings. Type "Git: Enabled" in the search bar. Make sure that the box is ticked.  
+    To enable Git in VS Code: Go to File > Preferences > Settings. Type `Git: Enabled` in the search bar. Make sure that the box is ticked.  
     - If you don't want to automatically initialize Git in all projects, and only for one project, do the following:  
         - Type in terminal (within the project folder) `git --version` to check if Git is installed. If there is an output `git version ...`, it's already installed. If not, [download Git](https://git-scm.com/downloads/).  
         - Next, update Git config with name and email (skip if already done) by typing in the Terminal `git config --global user.name "Your Name"` and `git config --global user.email "Your Email"`.
