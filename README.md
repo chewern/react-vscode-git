@@ -13,7 +13,7 @@ with Git to help with version control.
         - [Timeline View or Git History](#timeline-view-or-git-history)
         - [Branches](#branches)
 
-## Steps:
+## Basic Steps:
 
 1.  Ensure that VS Code, Git and Node.JS are installed on computer. Also ensure that React Developer
     Tools extension is added to and activated in your browser.
