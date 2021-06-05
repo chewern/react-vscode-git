@@ -3,6 +3,16 @@
 The purpose of this repository is to keep a living document on how to start a React.js project on VS Code  
 with Git to help with version control.
 
+## Table of Contents
+- [Steps](#steps)
+- [Working with Git on VS Code](#working-with-git-on-vs-code)
+    - [Setup a Git repository in VS Code](#setup-a-git-repository-in-vs-code)
+    - [How to use Git on VS Code](#how-to-use-git-on-vs-code)
+        - [Commit and Push Changes](#commit-and-push-changes)
+        - [Pull Changes](#pull-changes)
+        - [Timeline View or Git History](#timeline-view-or-git-history)
+        - [Branches](#branches)
+
 ## Steps:
 
 1.  Ensure that VS Code, Git and Node.JS are installed on computer. Also ensure that React Developer
@@ -19,7 +29,7 @@ with Git to help with version control.
 
 ## Working with Git on VS Code
 
-### Setup a Git repository
+### Setup a Git repository in VS Code
 
 1.  Check that `.git` is auto-created in the project folder by VS Code (view in File Explorer).  
 If `.git` is not found, you can initialize Git for the project in 2 ways:  
