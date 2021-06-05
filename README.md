@@ -5,7 +5,7 @@ with Git to help with version control.
 ## Steps:
 1.  Ensure that VS Code, Git and Node.JS are installed on computer. Also ensure that React Developer 
 Tools extension is added to and activated in your browser.
-2.  In VS Code Extensions, check that ES7 React/Redux/GraphGL/React-Native is installed. Also check that 
+2.  (Optional) In VS Code Extensions, check that ES7 React/Redux/GraphGL/React-Native is installed. Also check that 
 Live Server, ESLint, JavaScript (ES6) Code snippets extensions are installed.
 3.  In VS Code terminal, go to a directory (where you want to keep your project folders). 
 4.  Type `npx create-react-app {your project name}` to create a boilerplate react.js project.
