@@ -26,6 +26,27 @@ If `.git` is not found, you can initialize Git for the project in 2 ways:
     - If you don't want to automatically initialize Git in all projects, and only for one project, do the following:  
     Type in terminal (within the project folder) `git --version` to check if Git is installed. If there is an output "git version ...", it's already installed. If not, [download Git](https://git-scm.com/downloads/).  
     Next, update Git config with name and email (if not done before) by typing `git config --global user.name "Your Name"`.
-2. With this Git project, you can use the Git features on VS Code (such as branching, commiting changes). On VS Code, this is called Version Control.
+2. With this Git project, you can use the Git features on VS Code (such as branching, commiting changes). On VS Code, this is called Version/Source Control.
 
-## Version Control on VS Code
+## Version/Source Control on VS Code
+See the [video tutorial](https://code.visualstudio.com/docs/introvideos/versioncontrol) or the [documentation](https://code.visualstudio.com/docs/editor/versioncontrol) by VS Code for more details.  
+
+To see details of your current repository changes, select the Source Control icon in the Activity Bar on the left or press `Ctrl+Shift+G`.  
+
+### Commit Changes
+1. After saving the file, stage changes by hovering over the file in the panel and click the +  
+    - It is possible to skip this step and commit unstaged changes, but VS Code will show a warning popup.
+2. To commit changes, click the tick symbol at the top of the panel or press `Ctrl+Enter`.  
+
+To undo your last commit, use the command `Git: Undo Last Commit` in the Command Palette (`Ctrl+Shift+P`) or click the 3 dot menu > Commit > Undo Last Commit.  
+
+### Branches
+To create branches, these are 2 methods:  
+- In the Command Palette (`Ctrl+Shift+P`), use the command `Git: Create Branch`  
+- Click the 3 dot menu > Branch > Create New Branch  
+
+### Timeline View or Git History
+To visualise Git History (seeing the details of each commit and history of a file), there are 2 methods:  
+- Go to the File Explorer in VS Code (select the Explorer icon in the Activity Bar on the left or press `Ctrl+Shift+E`).  
+At the bottom of the panel, click the Timeline tab.  
+- use the [Git History Extension](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) from Don Jayamanne 
