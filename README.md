@@ -1,6 +1,7 @@
 # Starting a React.JS project on VS Code with Git
 
 The purpose of this repository is to keep a living document on how to start a React.js project on VS Code
+
 with Git to help with version control.
 
 ## Steps:
